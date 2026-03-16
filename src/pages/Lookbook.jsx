@@ -10,7 +10,7 @@ export default function Lookbook() {
     { src: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Styling', span: 'col-span-2 row-span-1 md:col-span-1 md:row-span-2' },
     { src: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Salon vibe', span: 'col-span-1 row-span-1' },
     { src: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Classic cut', span: 'col-span-1 row-span-2' },
-    { src: '/img/toolshair.jpg', alt: 'Tools', span: 'col-span-1 row-span-1' },
+    { src: '/img/taper2025.jpg', alt: 'Taper 2025', span: 'col-span-1 row-span-1' },
   ]
 
   return (
