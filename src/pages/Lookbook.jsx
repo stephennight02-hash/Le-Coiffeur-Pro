@@ -6,11 +6,11 @@ export default function Lookbook() {
   const images = [
     { src: 'https://images.unsplash.com/photo-1622286342621-4bd786c2447c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Fade cut', span: 'col-span-1 row-span-2' },
     { src: 'https://images.unsplash.com/photo-1599351431202-1e0f0137899a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Beard trim', span: 'col-span-1 row-span-1' },
-    { src: 'https://images.unsplash.com/photo-1595152452543-e5fc28ebc2fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Women color', span: 'col-span-1 row-span-1' },
+    { src: '/img/womencolor.jpg', alt: 'Women color', span: 'col-span-1 row-span-1' },
     { src: 'https://images.unsplash.com/photo-1522337660859-02fbefca4702?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Styling', span: 'col-span-2 row-span-1 md:col-span-1 md:row-span-2' },
     { src: 'https://images.unsplash.com/photo-1503951914875-452162b0f3f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Salon vibe', span: 'col-span-1 row-span-1' },
     { src: 'https://images.unsplash.com/photo-1605497788044-5a32c7078486?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Classic cut', span: 'col-span-1 row-span-2' },
-    { src: 'https://images.unsplash.com/photo-1516975080661-46bfa2c281c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80', alt: 'Tools', span: 'col-span-1 row-span-1' },
+    { src: '/img/toolshair.jpg', alt: 'Tools', span: 'col-span-1 row-span-1' },
   ]
 
   return (

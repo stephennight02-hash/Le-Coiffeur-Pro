@@ -10,7 +10,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1593702288056-b84746f33d7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80" 
+            src="/img/maxresdefault.jpg" 
             alt="Barber Shop Interior" 
             className="w-full h-full object-cover object-center"
           />
@@ -90,10 +90,10 @@ export default function Home() {
             className="order-1 md:order-2 relative aspect-[3/4] md:aspect-auto md:h-[700px] w-full"
           >
              <div className="absolute top-0 right-0 w-4/5 h-4/5 md:w-3/4 md:h-3/4 overflow-hidden rounded-sm">
-                <img src="https://images.unsplash.com/photo-1520338661084-ce39b4b0e3df?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Detail Coupe" className="w-full h-full object-cover" />
+                <img src="/img/detailcoupe.jpg" alt="Detail Coupe" className="w-full h-full object-cover" />
              </div>
              <div className="absolute bottom-0 left-0 w-2/3 h-1/2 overflow-hidden rounded-sm shadow-2xl border-4 border-fond">
-                <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Outils Barbier" className="w-full h-full object-cover" />
+                <img src="/img/toolshair.jpg" alt="Outils Barbier" className="w-full h-full object-cover" />
              </div>
           </motion.div>
 
