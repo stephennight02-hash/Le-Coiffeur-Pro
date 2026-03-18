@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
+
+const MotionLink = motion(Link)
 
 export default function Button({ children, onClick, href, primary = true, className = '', size = 'md', type = "button" }) {
   const baseClasses = "font-heading font-bold tracking-widest uppercase rounded-sm flex items-center justify-center transition-all duration-300 relative overflow-hidden group"
@@ -29,11 +32,9 @@ export default function Button({ children, onClick, href, primary = true, classN
        )
     }
     return (
-      <a href={href}>
-        <motion.button type={type} {...motionProps}>
-          {children}
-        </motion.button>
-      </a>
+      <MotionLink to={href} {...motionProps}>
+        {children}
+      </MotionLink>
     )
   }
 
